@@ -60,6 +60,6 @@ Branche main (calculatrice avancée) :
 
 ## Notes importantes
 
-    Recursivité : Les opérations composées exploitent la récursivité, chaque opération étant évaluée en appelant les méthodes valeur() de ses opérandes, qui peuvent elles-mêmes être des expressions.
+Recursivité : Les opérations composées exploitent la récursivité, chaque opération étant évaluée en appelant les méthodes valeur() de ses opérandes, qui peuvent elles-mêmes être des expressions.
 
-    Gestion des erreurs : La gestion des erreurs de division par zéro est effectuée dans chaque classe d'opération via une exception ArithmeticException, et cette exception est traitée dans la méthode main des deux branches.
+Gestion des erreurs : La gestion des erreurs de division par zéro est effectuée dans chaque classe d'opération via une exception ArithmeticException, et cette exception est traitée dans la méthode main des deux branches.
