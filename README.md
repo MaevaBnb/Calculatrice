@@ -1,4 +1,4 @@
-# Calculatrice en Java
+# Projet de Calculatrice en Java
 
 ## Description
 
