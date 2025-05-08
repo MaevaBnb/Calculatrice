@@ -44,8 +44,22 @@ Branche main :
 
 ## Fonctionnalités
 
-Page d'accueil : Affiche un une page web avec des images, des liens, et un texte structuré.
+Branche calculatrice_simple :
 
-CSS : Application de styles CSS3 avec des éléments diversifiés pour une mise en page soignée.
+    Opérations simples : La calculatrice peut effectuer des opérations simples (addition, soustraction, multiplication, division entière) sur des nombres entiers.
 
-Formulaire avec PHP : Un formulaire permettant à l'utilisateur de soumettre des informations, qui sont ensuite stockées et affichées depuis une base de données MySQL.
+    Gestion des exceptions : Une exception ArithmeticException est lancée et gérée pour prévenir les erreurs de division par zéro.
+
+Branche main (calculatrice avancée) :
+
+    Opérations composées : La calculatrice peut maintenant traiter des opérations composées où les opérandes sont des expressions contenant d'autres opérations.
+
+    Recursivité : Les calculs des opérations composées sont effectués de manière récursive, permettant à chaque opération d'être évaluée indépendamment, même si les opérandes sont elles-mêmes des résultats d'autres opérations.
+
+    Gestion des exceptions : Les erreurs de division par zéro sont gérées à l'aide de ArithmeticException dans les opérations composées.
+
+## Notes importantes
+
+    Recursivité : Les opérations composées exploitent la récursivité, chaque opération étant évaluée en appelant les méthodes valeur() de ses opérandes, qui peuvent elles-mêmes être des expressions.
+
+    Gestion des erreurs : La gestion des erreurs de division par zéro est effectuée dans chaque classe d'opération via une exception ArithmeticException, et cette exception est traitée dans la méthode main des deux branches.
