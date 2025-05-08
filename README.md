@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet consistait à implémenter une calculatrice permettant d'effectuer des opérations simples et composées sur des nombres entiers. La première partie du projet (branche calculatrice_simple) se concentrait sur la réalisation d'une calculatrice effectuant des opérations binaires simples telles que l'addition, la soustraction, la multiplication et la division entière. La seconde partie (branche main) a permis d'étendre le projet pour inclure des opérations composées où les opérandes peuvent être des expressions comprenant d'autres opérations.
+Ce projet, réalisé dans le cadre d'une seconde année de licence en informatique, consistait à implémenter une calculatrice permettant d'effectuer des opérations simples et composées sur des nombres entiers. La première partie du projet (branche calculatrice_simple) se concentrait sur la réalisation d'une calculatrice effectuant des opérations binaires simples telles que l'addition, la soustraction, la multiplication et la division entière. La seconde partie (branche main) a permis d'étendre le projet pour inclure des opérations composées où les opérandes peuvent être des expressions comprenant d'autres opérations.
 
 Le projet utilise des concepts d'orienté objet pour modéliser les opérations à l'aide de classes abstraites et concrètes. L'objectif principal était de tester ces différentes opérations, qu'elles soient simples ou composées.
 
